@@ -17,7 +17,7 @@
     <p class="boxed-text">
     <button id="themeToggle">Переключить тему</button>
     <a href="https://1drv.ms/w/c/1e0331b05253388e/Ed_eckn96ItCm5uWjcyobSoBolP95bQzw_9ZZ6lLc4n5ww?e=lfc8fh"><button>ClickityClackity(Финальное JS)</button></a>
-    <link rel="stylesheet" href="RingC.css">
+    <link rel="stylesheet" href="RingCSS.css">
     <p class="banner"><img src="Hatty.svg" width="1920px"
         height="70px"></p>
     <p class="burg"><img src="burger.svg"
