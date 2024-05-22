@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="wrapper">
+		<div class="progress-container">
+			<div id="progress"></div>
+		</div>
+		<main>
+			
+			
+    <p class="boxed-text">
+    <button id="themeToggle">Переключить тему</button>
+    <a href="https://1drv.ms/w/c/1e0331b05253388e/Ed_eckn96ItCm5uWjcyobSoBolP95bQzw_9ZZ6lLc4n5ww?e=lfc8fh"><button>ClickityClackity(Финальное JS)</button></a>
+    <link rel="stylesheet" href="RingCSS.css">
+    <p class="banner"><img src="Hatty.svg" width="1920px"
+        height="70px"></p>
+    <p class="burg"><img src="burger.svg"
+        width="31px" height="20.67px"></p>
+    <p class="swan"><img src="Swan.svg"
+    width="106px" height="63px"></p>
+    <p class="rings"><img src="Rings2.png"
+        width="1920px" height="655px"></p>
+    <p class="slider"><img src="Dotslider.svg"
+        width="104px" height="15px"></p>  
+    <p class="diamond"><img src="DiamondShort.svg"
+        width="830px" height="109px"></p>   
+    <p class="catalogtext"><img src="catalogtext.svg"
+        width="214px" height="53px"></p>
+    <p class="back"><img src="Catalog.svg"
+        width="1920px" height="1163px"></p>
+    <a href="https://github.com/Luckermt">
+    <p class="ring1"><img src="Ring1.svg"
+        width="645px" height="385px"></p>
+    </a>    
+    <a href="https://github.com/Luckermt">
+    <p class="ring2"><img src="Ring2.svg"
+        width="645px" height="385px"></p>
+    </a>
+    <a href="https://github.com/Luckermt">    
+    <p class="ring3"><img src="Ring3.svg"
+        width="645px" height="385px"></p>
+    </a>
+    <a href="https://github.com/Luckermt"> 
+    <p class="ring4"><img src="Ring4.svg"
+        width="645px" height="385px"></p>
+    </a>         
+    <p class="new"><img src="Newstuff.svg"
+        width="1290px" height="430px"></p>  
+    <p class="slider2"><img src="slider2.svg"
+        width="1330px" height="3px"></p>  
+    <p class="botbanner"><img src="botbanner.svg"
+        width="1920px" height="330px"></p>   
+    <p class="cart"><img src="cart.svg"
+        width="24px" height="24px"></p>
+    <p class="heart"><img src="heart-transformed.png"
+        width="24px" height="24px"></p>    
+    </p>
+    
+    <p class="wring">ОСОБЕННЫЕ ОБРУЧАЛЬНЫЕ КОЛЬЦА</p>
+    
+    <p class="dring">БРИЛИАНТ В ПОДАРОК</p>
+    <a href="@">
+    <p class="oring">ОБРУЧАЛЬНЫЕ КОЛЬЦА</p>
+    </a>
+    <a href="@">
+    <p class="pring">ПОМОЛВОЧНЫЕ КОЛЬЦА</p>
+    </a>
+    <a href="@">
+    <p class="qring">СВАДЕБНЫЕ ДУЭТЫ</p>
+    </a>
+    <a href="@">
+    <p class="fring">НА ЗАКАЗ</p>
+    </a>
+    <p class="news">НОВИНКИ</p>
+    <p class="tring">ART-RINGS</p>
+    <p class="mring">MOSCOW JEWELRY STUDIO</p>
+
+<script>
+document.getElementById('themeToggle').addEventListener('click', function() {
+    const currentTheme = document.body.className;
+    if (currentTheme === 'light-theme') {
+        document.body.className = 'dark-theme';
+    } else {
+        document.body.className = 'light-theme';
+    }
+});
+
+
+
+
+document.addEventListener("scroll", () => {
+	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100; 
+  document.getElementById("progress").style.width = scrolled + "%";
+})
+</script>   
+    
+</body>
+</html>
